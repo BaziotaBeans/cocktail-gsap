@@ -1,9 +1,14 @@
 import { ScrollTrigger, SplitText } from "gsap/all";
+import gsap from "gsap";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <h1 className="text-4xl font-bold text-red-500">Hello World</h1>
+    </div>
+  );
 };
 
 export default App;
